@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import icons8butterfly from './icons8-butterfly.gif';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={icons8butterfly} className="App-logo" alt="logo" />
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio totam voluptatibus accusamus quo fuga quas maxime atque repellendus? Perferendis eius, alias dolorum pariatur, recusandae soluta officia dignissimos laudantium non dolore, aliquam est odit quas placeat asperiores sunt esse? Magnam pariatur debitis ex inventore ea unde veniam, suscipit temporibus iure exercitationem?</p>
     </div>
   );
 }
